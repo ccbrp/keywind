@@ -12,8 +12,22 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: colors.blue,
+        primary: {
+          50: '#F5FBFF',
+          100: '#E7F5FE',
+          200: '#097CC3',
+          300: '#086BAB',
+          400: '#065D93',
+          500: '#054D79',
+          600: '#043D60',
+          700: '#042E49',
+          800: '#031F30',
+          900: '#011018',
+        },
         secondary: colors.gray,
+        danger: colors.rose,
+        success: colors.green,
+        warning: colors.yellow,
 
         provider: {
           bitbucket: '#0052CC',
